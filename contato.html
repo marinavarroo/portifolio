@@ -7,7 +7,13 @@
   <meta name="description" content="Projeto Portifólio - Desenvolvedora Web">
   <meta name="author" content="Maria Clara Dias Navarro">
   <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Desenvolvedora Web">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+  </style>
   <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
   <title> ☆ Meu Perfil ☆ </title>
 </head>
 
@@ -15,7 +21,7 @@
 
   <header>
 
-    <div id="header_content">
+    <div id="header_content" class="flex">
 
       <div id="titulo">
 
@@ -48,7 +54,7 @@
 
   <main>
 
-    <section id="contact">
+    <section id="contact" class="flex">
 
       <form action="#" method="submit" id="formulario">
 
@@ -72,14 +78,20 @@
 
       </form>
 
-      <article id="mapa">
-        <p>Ilha dos Gatos</p>
-        <p>São Sebastião - SP</p>
+      <article id="mapa" class="flex_start">
+
+        <div id="endereco">
+          <p>Ilha dos Gatos</p>
+          <p>São Sebastião - SP</p>
+        </div>
+
+        
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.3669396257555!2d-45.67202782501174!3d-23.805547420608033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d27f2e4ce0fcc3%3A0x614890995a13b1e0!2sIlha%20dos%20Gatos!5e0!3m2!1spt-BR!2sbr!4v1753129602016!5m2!1spt-BR!2sbr"
-          width="600" 
-          height="450" 
-          style="border:0;" 
+          width="400"
+					height="250"
+					frameborder="0"
+					style="border: 0"
           allowfullscreen="" 
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade">

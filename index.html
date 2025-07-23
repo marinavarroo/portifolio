@@ -6,14 +6,20 @@
   <meta name="description" content="Projeto Portifólio - Desenvolvedora Web">
   <meta name="author" content="Maria Clara Dias Navarro">
   <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Desenvolvedora Web">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+  </style>
   <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
   <title> ☆ Meu Perfil ☆ </title>
 </head>
 <body>
 
   <header>
 
-    <div id="header_content">
+    <div id="header_content" class="flex">
 
       <div id="titulo">
 
@@ -47,12 +53,15 @@
   <!-- Seção principal -->
   <main>
 
-    <section id="about">
+    <section id="about" class="flex_start">
 
       <h2>Sobre Mim</h2>
 
-      <div id="conteudo">
-          <img src="https://avatars.githubusercontent.com/u/153381783?s=400&u=cb8148dbaaf0b3650623f780d50aaf64a4b1a68a&v=4" alt="Foto de perfil do meu perfil do GitHub">
+      <div id="conteudo" class="flex">
+          <img src="https://avatars.githubusercontent.com/u/153381783?s=400&u=cb8148dbaaf0b3650623f780d50aaf64a4b1a68a&v=4" 
+          alt="Foto de perfil do meu perfil do GitHub"
+          class="img_profile"
+          >
 
           <article id="sobre_texto">
             <p>
@@ -68,11 +77,11 @@
 
     </section>
 
-    <section id="video">
+    <section id="video" class="flex_start">
 
       <h2>Meu video favorito</h2>
 
-      <div id="youtube">
+      <div id="youtube" class="flex">
           <iframe 
           width="560" 
           height="315" 
@@ -91,7 +100,7 @@
   </main>
 
   <!-- Rodapé -->
-  <footer>
+  <footer class="flex">
 
     <section id="redes_socias">
 
